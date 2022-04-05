@@ -11,7 +11,7 @@ provider:
   versionFunctions: false
 
 functions:
-  hello:
+  postcode:
     handler: handler.postcode
     events:
       - http:
