@@ -1,4 +1,4 @@
-service: serverless-starter-app
+service: serverless-code-test
 
 frameworkVersion: ">=2.0.0"
 
