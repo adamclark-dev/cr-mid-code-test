@@ -1,1 +1,1 @@
-export { default as hello } from './src/Action/Hello.action';
+export { default as postcode } from './src/Action/Postcode.action';
