@@ -7,18 +7,18 @@ You can find an example of how the end result might function below:
 
 https://poqr2v25cb.execute-api.us-east-1.amazonaws.com/prod/postcode/SE17TP
 
-You may add your own formatting, styles etc to the output, change error handling, etc.
+You may add your own formatting, styles, etc. to the output, change error handling, etc.
 
-As part of your code, You will need to send a GET request to our post code api to get the list of addresses:
+As part of your code, You will need to send a GET request to our postcode API to get the list of addresses:
 
 [https://lookups.sls.comicrelief.com/postcode/lookup/SE17TP](https://lookups.sls.comicrelief.com/postcode/lookup/SE17TP)
 
-You will then need to send a GET request to the postcode.io api to get latitudes and longitudes:
+You will then need to send a GET request to the postcode.io api to retrieve latitudes and longitudes:
 
 [https://api.postcodes.io/postcodes/SE17TP](https://api.postcodes.io/postcodes/SE17TP)
 
 You will then need to join the latitude and longitude data from postcode.io onto the data from our
-postcode api and return the data to the user.
+postcode api, and return the data to the user.
 
 ### Local Development
 
@@ -35,7 +35,7 @@ yarn build
 
 to install the dependencies.
 
-To run the endpoint locally you can then run the following command in the command line:
+To run the endpoint locally, you can then run the following command in the command line:
 
 ```bash
 serverlesss offline start
