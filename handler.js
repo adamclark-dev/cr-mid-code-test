@@ -1,1 +1,2 @@
-export { default as hello } from './src/Action/Hello.action';
+/* eslint-disable import/prefer-default-export */
+export { default as postcode } from './src/Action/Postcode.action';

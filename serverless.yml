@@ -1,18 +1,18 @@
-service: serverless-starter-app
+service: serverless-code-test
 
-frameworkVersion: ">=1.1.0 <2.0.0"
+frameworkVersion: ">=2.0.0"
 
 provider:
   name: aws
-  runtime: nodejs10.x
+  runtime: nodejs14.x
   memorySize: 128
   timeout: 60
   stage: dev
   versionFunctions: false
 
 functions:
-  hello:
-    handler: handler.hello
+  postcode:
+    handler: handler.postcode
     events:
       - http:
           path: postcode/{postCode}
