@@ -23,9 +23,9 @@ postcode api, and return the data to the user.
 ### Local Development
 
 Prerequisites:
-- Serverless installed globally in order to run the function locally using serverless offline
-- NodeJS
-- Yarn
+- [Serverless](https://www.serverless.com/) installed globally in order to run the function locally using serverless offline
+- [NodeJS](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/)
 
 Clone the repo and then execute
 
