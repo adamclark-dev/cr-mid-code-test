@@ -1,12 +1,13 @@
-## Midweight Developer Code Test
+## Comic Relief Engineer Code Test
 
 The aim of the code test is to create an API endpoint that an API user can submit a postcode to, which
-will return a list of potential addresses which have been enhanced with latitudes and longitudes.
+will return a list of potential addresses which have been **enhanced with latitudes and longitudes**.
 
-You can find an example of how the end result should function below:
+You can find an example of how the end result might function below:
 
-https://s4aily6l6c.execute-api.eu-west-2.amazonaws.com/production/postcode/SE17TP
+https://poqr2v25cb.execute-api.us-east-1.amazonaws.com/prod/postcode/SE17TP
 
+You may add your own formatting, styles etc to the output, change error handling, etc.
 
 As part of your code, You will need to send a GET request to our post code api to get the list of addresses:
 
@@ -19,14 +20,29 @@ You will then need to send a GET request to the postcode.io api to get latitudes
 You will then need to join the latitude and longitude data from postcode.io onto the data from our
 postcode api and return the data to the user.
 
-### Local Developemnt
+### Local Development
 
-To run the endpoint locally you can run the following command in the command line,
+Prerequisites:
+- Serverless installed globally in order to run the function locally using serverless offline
+- NodeJS
+- Yarn
+
+Clone the repo and then execute
+
+```bash
+yarn build
 ```
+
+to install the dependencies.
+
+To run the endpoint locally you can then run the following command in the command line:
+
+```bash
 serverlesss offline start
 ```
 
-and then visit the following url in your browser to test the response,
-```
-http://localhost:3001/postcode/sw183ba
+You can then visit the following url in your browser to test the response:
+
+```bash
+http://localhost:3001/postcode/SE17TP
 ```
