@@ -1,7 +1,7 @@
 {
-  "name": "serverless-starter-app",
+  "name": "cr-mid-code-test",
   "version": "1.0.0",
-  "description": "Comic Relief serverless starter application",
+  "description": "Comic Relief Code Test",
   "author": "Adam Clark",
   "license": "MIT",
   "devDependencies": {
