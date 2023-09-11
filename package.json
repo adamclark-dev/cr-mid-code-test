@@ -1,7 +1,8 @@
 {
-  "name": "serverless-starter-app",
+  "name": "cr-mid-code-test",
   "version": "1.0.0",
-  "description": "Comic Relief serverless starter application",
+  "description": "Comic Relief coding test",
+  "repository": "https://github.com/comicrelief/cr-mid-code-test",
   "author": "Adam Clark",
   "license": "MIT",
   "devDependencies": {
@@ -38,8 +39,6 @@
     "webpack": "4.36.1",
     "webpack-node-externals": "^1.6.0"
   },
-  "main": "index.js",
-  "repository": "https://github.com/comicrelief/serverless-starter-app",
   "dependencies": {
     "@comicrelief/lambda-wrapper": "^0.0.71",
     "request": "^2.88.0",
