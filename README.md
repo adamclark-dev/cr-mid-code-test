@@ -30,7 +30,7 @@ Prerequisites:
 Clone the repo and then execute
 
 ```bash
-yarn build
+yarn install
 ```
 
 to install the dependencies.
