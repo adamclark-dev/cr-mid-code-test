@@ -6,7 +6,7 @@ You can find an example of how the end result might function here: <https://poqr
 
 You may add your own formatting, styles, etc. to the output, change error handling, etc.
 
-As part of your solution, you will need to send a GET request to our postcode lookup API to get the list of addresses:
+As part of your solution, you will need to send a GET request to [our postcode lookup API](http://spa-lookups-apidocs.s3-website-eu-west-1.amazonaws.com/#api-General-Postcode_Lookup) to get the list of addresses:
 
 [https://lookups.sls.comicrelief.com/postcode/lookup/SE17TP](https://lookups.sls.comicrelief.com/postcode/lookup/SE17TP)
 
