@@ -16,30 +16,28 @@ You will then need to send a GET request to the [postcodes.io](https://postcodes
 
 You will then need to join the latitude and longitude data onto the address list, and return the enhanced list to the user.
 
-## Local Development
+## Prerequisites
 
-Prerequisites:
+You'll need to have the following software installed:
 
-- [Serverless](https://www.serverless.com/) installed globally in order to run the function locally using serverless offline
 - [NodeJS](https://nodejs.org/en/)
 - [Yarn](https://yarnpkg.com/)
+- [Serverless](https://www.serverless.com/) installed globally
 
-Clone the repo and then execute
+## Local development
+
+Clone the repo and then install dependencies by running
 
 ```bash
 yarn install
 ```
 
-to install the dependencies.
-
-To run the endpoint locally, you can then run the following command in the command line:
+To run the service locally, use the following command:
 
 ```bash
 serverlesss offline start
 ```
 
-You can then visit the following url in your browser to test the response:
+You can then visit the following URL in your browser to test the response:
 
-```bash
-http://localhost:3001/postcode/SE17TP
-```
+<http://localhost:3001/postcode/SE17TP>
