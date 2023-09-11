@@ -39,7 +39,7 @@
     "webpack-node-externals": "^1.6.0"
   },
   "main": "index.js",
-  "repository": "https://github.com/comicrelief/serverless-starter-app",
+  "repository": "https://github.com/comicrelief/cr-mid-code-test",
   "dependencies": {
     "@comicrelief/lambda-wrapper": "^0.0.71",
     "request": "^2.88.0",
