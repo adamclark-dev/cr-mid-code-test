@@ -41,3 +41,13 @@ serverlesss offline start
 You can then visit the following URL in your browser to test the response:
 
 <http://localhost:3001/postcode/SE17TP>
+
+## Submission
+
+To submit your solution:
+
+- Create a private Github Repository that contains your code
+- [Invite](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository) [corinja](https://github.com/corinja), [seb-cr](https://github.com/seb-cr) and [KrupaPammi](https://github.com/KrupaPammi)  as contributors
+- Email <c.ashwell@comicrelief.com> to let us know when you've finished
+- If you're ok to share screen during the interview that's good, alternatively if you can host this somewhere that's also good
+- Please reach out to [me](https://github.com/corinja) with any questions!
